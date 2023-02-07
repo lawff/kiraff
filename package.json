@@ -1,6 +1,6 @@
 {
   "name": "@kiraff/monorepo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "packageManager": "pnpm@7.1.7",
   "description": "useless UI.",
@@ -26,6 +26,7 @@
     "@rollup/plugin-replace": "^5.0.2",
     "@types/fs-extra": "^11.0.1",
     "@types/yargs": "^17.0.22",
+    "bumpp": "^8.2.1",
     "esbuild": "^0.17.6",
     "eslint": "^8.33.0",
     "esno": "^0.16.3",
