@@ -1,0 +1,23 @@
+{
+  "name": "@kiraff/hooks",
+  "version": "0.0.1",
+  "author": "lawliet",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "library",
+    "frontend",
+    "react-hooks",
+    "hooks",
+    "state"
+  ],
+  "sideEffects": false,
+  "main": "cjs/index.js",
+  "module": "esm/index.js",
+  "types": "lib/index.d.ts",
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

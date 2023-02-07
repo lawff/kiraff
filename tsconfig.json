@@ -1,0 +1,23 @@
+{
+  "extends": "./tsconfig.base.json",
+  "include": [
+    "packages",
+    "scripts"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/**/*.md",
+    "**/dist",
+    "public",
+    ".cache",
+    "packages/kiraff-*/esm/**/*",
+    "packages/kiraff-*/lib/**/*",
+    "packages/kiraff-*/cjs/**/*"
+  ],
+  "compilerOptions": {
+    "paths": {
+      "@kiraff/*": ["packages/kiraff-*/src"],
+      "~/*": ["./*"]
+    }
+  }
+}
