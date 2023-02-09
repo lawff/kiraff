@@ -21,6 +21,7 @@
     "react-dom": ">=16.8.0"
   },
   "dependencies": {
+    "react-hot-toast": "^2.4.0",
     "react-remove-scroll": "^2.5.5"
   }
 }
