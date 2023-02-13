@@ -59,11 +59,17 @@ importers:
 
   packages/kiraff-ui:
     specifiers:
+      clsx: ^1.2.1
+      lucide-react: ^0.112.0
       react-hot-toast: ^2.4.0
       react-remove-scroll: ^2.5.5
+      tailwind-merge: ^1.9.1
     dependencies:
+      clsx: 1.2.1
+      lucide-react: 0.112.0
       react-hot-toast: 2.4.0
       react-remove-scroll: 2.5.5
+      tailwind-merge: 1.9.1
 
   playground:
     specifiers:
@@ -1734,6 +1740,11 @@ packages:
       strip-ansi: 6.0.1
       wrap-ansi: 7.0.0
     dev: true
+
+  /clsx/1.2.1:
+    resolution: {integrity: sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg==}
+    engines: {node: '>=6'}
+    dev: false
 
   /color-convert/1.9.3:
     resolution: {integrity: sha512-QfAUtd+vFdAtFQcC8CCyYt1fYWxSqAiK2cSD6zDB8N3cpsEBAvRxp9zOGg6G/SHHJYAT88/az/IuDGALsNVbGg==}
@@ -3459,6 +3470,12 @@ packages:
       yallist: 4.0.0
     dev: true
 
+  /lucide-react/0.112.0:
+    resolution: {integrity: sha512-+glJwNv7bv6I6WOb8RRbaVHJdaoaV/KWV44ag/EpAoSsWxSUML5RP8hA+9O188RoEv9ZFMx1l+7HPwTDnt0L/Q==}
+    peerDependencies:
+      react: ^16.5.1 || ^17.0.0 || ^18.0.0
+    dev: false
+
   /magic-string/0.27.0:
     resolution: {integrity: sha512-8UnnX2PeRAPZuN12svgR9j7M1uWMovg/CEnIwIG0LFkXSJJe4PdfUGiTGl8V9bsBHFUtfVINcSyYxd7q+kx9fA==}
     engines: {node: '>=12'}
@@ -4522,6 +4539,10 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
     dev: true
+
+  /tailwind-merge/1.9.1:
+    resolution: {integrity: sha512-ED9MkiUHlmfh58EC1xHRqXcH1IQyRtmDP0AmXlugYkP2tvfu7ejtjFEHJLJt93mQ7ZJkcqSIgm9M394bq5vOJg==}
+    dev: false
 
   /tailwindcss-animate/1.0.5_tailwindcss@3.2.6:
     resolution: {integrity: sha512-UU3qrOJ4lFQABY+MVADmBm+0KW3xZyhMdRvejwtXqYOL7YjHYxmuREFAZdmVG5LPe5E9CAst846SLC4j5I3dcw==}

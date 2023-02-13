@@ -21,7 +21,10 @@
     "react-dom": ">=16.8.0"
   },
   "dependencies": {
+    "clsx": "^1.2.1",
+    "lucide-react": "^0.112.0",
     "react-hot-toast": "^2.4.0",
-    "react-remove-scroll": "^2.5.5"
+    "react-remove-scroll": "^2.5.5",
+    "tailwind-merge": "^1.9.1"
   }
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import toast, { Toaster } from 'react-hot-toast'
+import { Loading } from '../Loading'
 
 export function Notification() {
   return (
@@ -29,5 +30,25 @@ export const Toast = {
   },
   error: (message: string) => {
     toast.error(message)
+  },
+  loading: (message?: string) => {
+    return toast.custom(t => (
+      <div
+        className={`${
+          t.visible ? 'animate-enter' : 'hidden'
+        } max-w-[80%] bg-[#24262B] relative bottom-[calc(50vh-16px)] translate-y-[50%] opacity-80 text-[#fff] py-[11px] px-[17px] text-center pointer-events-auto`}
+      >
+        <div className="text-center">
+          <Loading />
+          {message}
+        </div>
+      </div>
+    ), {
+      duration: Infinity,
+      position: 'bottom-center',
+    })
+  },
+  dismiss: (id?: string) => {
+    toast.dismiss(id)
   },
 }
